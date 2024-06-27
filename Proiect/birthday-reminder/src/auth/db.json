@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Andreas",
+      "lastName": "Faur",
+      "email": "faurandreas@gmail.com",
+      "password": "Andreas1!"
+    },
+    {
+      "id": "e65b",
+      "firstName": "Andreas",
+      "lastName": "Andrei",
+      "email": "andreas@mail.com",
+      "password": "Parola1!",
+      "confirmPassword": "Parola1!"
+    },
+    {
+      "id": "f814",
+      "firstName": "Cont",
+      "lastName": "Nou",
+      "email": "cont@email.com",
+      "password": "Cont0!",
+      "confirmPassword": "Cont0!"
+    }
+  ]
+}

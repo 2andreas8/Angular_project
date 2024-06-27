@@ -1,0 +1,65 @@
+
+
+  <div class="form-container">
+    <form [formGroup]="addFriendForm" (ngSubmit)="addFriend()" nz-form nzLayout="vertical">
+      <nz-form-item>
+        <nz-form-label [nzFor]="'firstName'" nzRequired>First Name</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="firstName" id="firstName" placeholder="First Name" />
+          <div *ngIf="addFriendForm.get('firstName')?.touched && addFriendForm.get('firstName')?.errors?.['required']" class="error-message">
+            First name is required.
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label [nzFor]="'lastName'" nzRequired>Last Name</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="lastName" id="lastName" placeholder="Last Name" />
+          <div *ngIf="addFriendForm.get('lastName')?.touched && addFriendForm.get('lastName')?.errors?.['required']" class="error-message">
+            Last name is required.
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label [nzFor]="'phone'" nzRequired>Phone</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="phone" id="phone" placeholder="Phone" />
+          <div *ngIf="addFriendForm.get('phone')?.touched && addFriendForm.get('phone')?.errors?.['required']" class="error-message">
+            Phone number is required.
+          </div>
+          <div *ngIf="addFriendForm.get('phone')?.touched && addFriendForm.get('phone')?.errors?.['pattern']" class="error-message">
+            Phone number must be 10 digits.
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label [nzFor]="'city'" nzRequired>City</nz-form-label>
+        <nz-form-control>
+          <input nz-input formControlName="city" id="city" placeholder="City" />
+          <div *ngIf="addFriendForm.get('city')?.touched && addFriendForm.get('city')?.errors?.['required']" class="error-message">
+            City is required.
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+  
+      <nz-form-item>
+        <nz-form-label [nzRequired]="true" nzFor="birthday">Birthday</nz-form-label>
+        <nz-form-control nzHasFeedback>
+            <nz-date-picker formControlName="birthday" id="birthday" nzFormat="yyyy-MM-dd"></nz-date-picker>
+          <div *ngIf="addFriendForm.get('birthday')?.touched && addFriendForm.get('birthday')?.errors?.['required']" class="error-message">
+            Birthday is required.
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+      
+  
+      <div class="submit-button-container">
+        <button nz-button nzType="primary" type="submit">
+          <i nz-icon nzType="save"></i> Add Friend
+        </button>
+      </div>
+    </form>
+  </div>

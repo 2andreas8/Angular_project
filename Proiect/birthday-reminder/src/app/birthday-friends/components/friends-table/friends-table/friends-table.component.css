@@ -1,0 +1,29 @@
+/* Stilizare pentru containerul principal al tabelului */
+.friends-table-container {
+    padding: 20px;
+  }
+  
+  /* Stilizare pentru butoane */
+  .actions-button {
+    margin-right: 8px; /* Spațiu între butoane */
+  }
+  
+  /* Stilizare pentru capetele de coloane */
+  th {
+    text-align: center; /* Aliniere text la centru */
+    font-weight: bold; /* Text cu bold */
+    background-color: #f0f0f0; /* Culoare fundal pentru capetele de coloane */
+  }
+  
+  /* Stilizare pentru rânduri */
+  td {
+    text-align: center; /* Aliniere text la centru */
+  }
+  
+  /* Stilizare pentru butoanele de acțiuni */
+  .nz-btn {
+    border-radius: 4px; /* Colțuri rotunjite */
+    font-size: 12px; /* Dimensiune font */
+    padding: 6px 12px; /* Spațierea butonului */
+  }
+  

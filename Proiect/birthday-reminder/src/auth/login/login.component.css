@@ -1,0 +1,27 @@
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #fff;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container nz-form-item {
+    margin-bottom: 16px;
+  }
+  
+  .login-container nz-form-control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container button {
+    width: 100%;
+  }
+  

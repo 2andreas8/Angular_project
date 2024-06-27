@@ -1,0 +1,52 @@
+{
+  "friends": [
+    {
+      "firstName": "Andreas",
+      "lastName": "Faur",
+      "phone": "0738949822",
+      "city": "Brasov",
+      "birthday": "2003-09-23",
+      "id": "1003"
+    },
+    {
+      "firstName": "Marian",
+      "lastName": "Lobont",
+      "phone": "0723941098",
+      "city": "Brasov",
+      "birthday": "2001-10-02",
+      "id": "881"
+    },
+    {
+      "id": "8cf9",
+      "firstName": "Cosmin",
+      "lastName": "Mara",
+      "phone": "0722938000",
+      "city": "Bacau",
+      "birthday": "2004-10-21T09:41:14.605Z"
+    },
+    {
+      "id": "e59d",
+      "firstName": "Razvan",
+      "lastName": "Damian",
+      "phone": "0728737623",
+      "city": "Bucuresti",
+      "birthday": "1999-04-25T10:00:00.970Z"
+    },
+    {
+      "id": "cd29",
+      "firstName": "Mircea",
+      "lastName": "Gafton",
+      "phone": "0788899123",
+      "city": "Brasov",
+      "birthday": "2019-06-19T10:16:36.974Z"
+    },
+    {
+      "id": "9a5b",
+      "firstName": "Andreas",
+      "lastName": "Faur",
+      "phone": "0722938000",
+      "city": "Bucuresti",
+      "birthday": "2020-06-02T10:19:32.581Z"
+    }
+  ]
+}
